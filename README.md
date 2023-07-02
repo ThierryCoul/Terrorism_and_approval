@@ -1,17 +1,18 @@
-## The file describes the code used in the manuscript "We perceive national leaders as incompetent post-terrorism: The case of ISIL and al-Qaeda"
+## The file describes the code used in the manuscript "We perceive national leaders as incompetent post-terrorism: The case of ISIL and al-Qaeda."
 
-#### The names of the code files are self-explanitory.
+#### The names of the code files are self-explanatory.
 
-* 1_Cleaning_Gallup_data.do (This code mostly stems from study 3G INTERNET AND CONFIDENCE IN GOVERNMENT, whose code is public, thanks to Sergei Guriev, Nikita Melnikov and Ekaterina Zhuravskaya)
+* 1_Cleaning_Gallup_data.do (This code mostly stems from the study 3G INTERNET AND CONFIDENCE IN GOVERNMENT, whose code is public, thanks to Sergei Guriev, Nikita Melnikov and Ekaterina Zhuravskaya)
 * 2_Cleaning_additional_control_variables.do
 * 3_Cleaning_violence_variables.do
 * 4_0_Cleaning_final_dataset.do
 * 4_1_Cleaning_final_dataset_country_level.do
 * 5_statistical_analysis.do
 * 6_statistical_analysis_coefplot.do
+* Classifying_presidents.ipynb (Jupiter notebook)
 
-#### Dataset used in the analyses are provided in the folder Input:
-* "The_Gallup_042722.dta" It is result of the survey carried out by Gallup World Poll (GWP). This dataset is not public. One can contact Gallup to purchase the data here: https://www.gallup.com/270188/contact-us-general.aspx (accessed June 30, 2022). When downloaded, the file should be placed in the input folder and titled "The_Gallup_042722.dta"
+#### Datasets used in the analyses are provided in the folder Input:
+* "The_Gallup_042722.dta" It is the result of the survey carried out by the Gallup World Poll (GWP). This dataset is not public. One can contact Gallup to purchase the data here: https://www.gallup.com/270188/contact-us-general.aspx (accessed June 30, 2022). When downloaded, the file should be placed in the input folder and titled "The_Gallup_042722.dta"
 
 * "map_to_gallup_level1.dta": Subnational regions id for countries whose survey data came from subdivisions of the country at the first level administratively.
 
